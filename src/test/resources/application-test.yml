@@ -1,0 +1,10 @@
+# Inherits from classpath:/application.yml
+
+logging:
+  pattern.console: "%m%n%wEx"
+spring:
+  jpa:
+    open-in-view: false
+    properties:
+      org.hibernate.flushMode: COMMIT
+  main.banner-mode: 'off'
